@@ -1,0 +1,71 @@
+h1{
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+.A{
+    /* text-align: center; */
+    /* we can add color and style in line; */
+    text-decoration: red wavy underline;
+    font-weight: 900px;
+    
+}
+
+body{
+    background-color:rgb(244, 255, 124);
+}
+
+button{
+    background-color: rgb(29, 77, 211);
+    color: chocolate;
+}
+
+p{
+    text-align: center;
+    line-height: normal;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+#six{
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#five{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+#ten{
+    border-width: 3px;
+    height: 50px;
+    width: 500px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: blue;
+    /* border: 5px dotted black; */
+    
+}
+
+div{
+    /* text-align: center; */
+    height: 200px;
+    width: 220px;
+    background-color: rgb(182, 58, 138);
+    /* padding-left: 200px; */
+    padding: 25px 25px 25px 25px;
+    margin-top: 50px;
+
+}
+#eleven{
+    text-align: center;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    
+}

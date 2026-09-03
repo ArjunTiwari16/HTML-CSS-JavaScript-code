@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+#navbar{
+    background-color:  #0f1111;
+    height: 60px;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+button{
+    background-color: #f08804;
+}
+a{
+    text-decoration: none;
+    margin-right: 340px;
+    color: white;
+}
+.content{
+    height: 100px;
+    width: 100px;
+    /* border-style: solid;
+    border-color: black;
+    border-width: 2px; */
+        /* or */
+    border: 2px solid black;
+    display: inline-block;
+}
+main{
+    height: 720px;
+}
+footer{
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+}

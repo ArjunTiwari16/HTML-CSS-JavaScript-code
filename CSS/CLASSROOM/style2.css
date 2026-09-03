@@ -1,0 +1,65 @@
+/* *{
+    background-color: black;
+} */
+/* 
+
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+#box2{
+    height: 50px;
+    width: 50%;
+    background-color: yellow;
+}
+#box3{
+    height: 50vh;
+    width: 50%;
+    background-color: red;
+    margin-left: 50%;
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    position: static;
+    background-color: red;
+}
+#box2{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    background-color: green;
+}
+#box3{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: blueviolet;
+}
+#box4{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 100vw;
+    background-color: chocolate;
+}
+#box5{
+    position: sticky;
+    background-color: aliceblue;
+    top: 60px;
+    background-image: url("ChatGPT\ Image\ Aug\ 22\,\ 2026\,\ 12_02_57\ PM.png");
+    background-size: contain;
+    /* background-size: cover;  */
+}
+body{
+    background-image: url("ChatGPT\ Image\ Aug\ 22\,\ 2026\,\ 12_02_57\ PM.png");
+
+}
