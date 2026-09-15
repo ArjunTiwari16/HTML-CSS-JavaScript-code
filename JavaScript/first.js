@@ -23,4 +23,6 @@ const student = {
 };
 console.log(student);
 student["Name"] = "Shyam";
+student.age = 21;
+console.log(student.age);
 console.log(student["Name"]);
