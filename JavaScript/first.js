@@ -116,3 +116,20 @@ const multiplication = (a,b) =>{
 }
 // console.log(multiplication(2,4));
 multiplication(2,4);
+
+
+//------------forEach Loop in Arrays---------Method----------------
+console.log("forEach Loop");
+
+let number = [1,2,3,4,5];
+
+number.forEach(function printVal(val){
+    console.log(val);
+});
+
+let abb = ["apple","banana","mango"];
+abb.forEach((val,idx,arr) => {
+    console.log(val,idx);
+    console.log(val.toUpperCase());
+    console.log(arr);
+});
