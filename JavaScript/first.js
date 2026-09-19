@@ -86,3 +86,33 @@ console.log(brr);
 //splice(kis index se start hoga,kitane number ko delete karega,replace value);
 brr.splice(1,2,101,102);
 console.log(brr);
+
+
+//-------------------------------Function--------------------------------------------
+
+console.log("Hello World");
+"abc".toUpperCase();
+[1,2,3].push(4);
+
+function myFunction(){
+    console.log("Welcome to India");
+    console.log("We are learing js");
+}
+myFunction();
+
+function sum(a, b){
+    //let c = a+b;
+    // console.log(c);
+    return a+b;
+}
+// sum(5,6);
+console.log(sum(5,6));
+
+// ---------------------------------arrow function -----------------------------------------
+
+const multiplication = (a,b) =>{
+    console.log(a*b);
+    // return a*b;
+}
+// console.log(multiplication(2,4));
+multiplication(2,4);
